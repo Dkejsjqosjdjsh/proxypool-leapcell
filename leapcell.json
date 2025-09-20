@@ -1,0 +1,17 @@
+{
+  "name": "proxypool",
+  "description": "A proxy pool for web spiders",
+  "build": {
+    "docker": {
+      "dockerfile": "Dockerfile"
+    }
+  },
+  "deploy": {
+    "routes": [
+      {
+        "path": "/",
+        "target": "http://localhost:8080"
+      }
+    ]
+  }
+}

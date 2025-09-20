@@ -1,5 +1,5 @@
 # your domain
-domain: example.com
+domain: proxypool.leapcell.dev
 
 # database url
 database_url: ""
